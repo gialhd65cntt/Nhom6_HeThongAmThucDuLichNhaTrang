@@ -254,5 +254,21 @@ CREATE TABLE `ai_saved_itineraries` (
   CONSTRAINT `fk_saved_tours_user` FOREIGN KEY (`user_id`) REFERENCES `nguoi_dung` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+-- =============================================================================
+-- 15. TRIGGER: CHAN XOA TAI KHOAN QUAN TRI VIEN (ADMIN PROTECTION)
+-- =============================================================================
+DROP TRIGGER IF EXISTS `tg_chan_xoa_admin`;
+DELIMITER $$
+CREATE TRIGGER `tg_chan_xoa_admin`
+BEFORE DELETE ON `nguoi_dung`
+FOR EACH ROW
+BEGIN
+  IF OLD.vai_tro = 'admin' OR OLD.id = 1 THEN
+    SIGNAL SQLSTATE '45000'
+    SET MESSAGE_TEXT = 'LỖI BẢO MẬT: Không thể xóa tài khoản Quản trị viên hệ thống!';
+  END IF;
+END$$
+DELIMITER ;
+
 SET FOREIGN_KEY_CHECKS = 1;
 

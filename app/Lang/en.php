@@ -13,7 +13,7 @@ return [
     'nav.admin_panel'  => 'Admin Portal',
 
     // Hero & Home
-    'hero.badge'       => 'Nha Trang Tourism & Culinary Discovery Portal',
+    'hero.badge'       => 'Nha Trang Tourism & Culinary Staycation Portal',
     'hero.title'       => 'Discover Nha Trang',
     'hero.subtitle'    => 'Pearl of the East Sea — Explore one of the world\'s most beautiful bays, savor authentic seafood, and book attraction tickets easily.',
     'hero.search_placeholder' => 'Search beaches, temples, specialties, seafood...',
@@ -59,7 +59,7 @@ return [
     'common.open_hours' => 'Opening Hours',
 
     // Footer
-    'footer.about'      => 'Nha Trang Discovery is the official digital portal promoting Nha Trang\'s bay destinations, gastronomy culture, and tourist services.',
+    'footer.about'      => 'Nha Trang Staycation is the official digital portal promoting Nha Trang\'s bay destinations, gastronomy culture, and tourist services.',
     'footer.quick_links'=> 'Quick Links',
     'footer.support'    => 'Visitor Support',
     'footer.rights'     => 'All rights reserved. Nha Trang Tourism & Culinary Portal.',

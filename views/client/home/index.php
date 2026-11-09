@@ -449,7 +449,7 @@ require_once dirname(__DIR__, 2) . '/layouts/header.php';
 
     <!-- 4 Tiện ích độc quyền hệ thống -->
     <div class="bg-white rounded-4 p-4 p-md-5 border shadow-sm">
-        <h4 class="fw-bold text-dark text-center mb-4">Trải nghiệm du lịch thông minh cùng Nha Trang Discovery</h4>
+        <h4 class="fw-bold text-dark text-center mb-4">Trải nghiệm du lịch thông minh cùng Nha Trang Staycation</h4>
         <div class="row g-4 text-center">
             <div class="col-md-3 col-sm-6">
                 <div class="p-2">

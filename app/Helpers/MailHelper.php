@@ -27,14 +27,14 @@ class MailHelper
         $isTaiQuay = ($donHang['phuong_thuc_thanh_toan'] ?? '') === 'tai_quay';
 
         if ($isTaiQuay && !$isPaid) {
-            $subject = "[Nha Trang Discovery] Xác nhận đặt vé thành công (Thanh toán tại quầy) - Mã đơn #{$maDon}";
-            $loiChao = "Cảm ơn bạn đã lựa chọn Nha Trang Discovery. Đơn đặt vé của bạn đã được ghi nhận thành công với hình thức <strong>Thanh toán tiền mặt tại quầy</strong>. Bạn vui lòng xuất trình mã đơn hàng hoặc phiếu E-Voucher điện tử bên dưới tại quầy tiếp đón để thanh toán và nhận vé vào cổng.";
+            $subject = "[Nha Trang Staycation] Xác nhận đặt vé thành công (Thanh toán tại quầy) - Mã đơn #{$maDon}";
+            $loiChao = "Cảm ơn bạn đã lựa chọn Nha Trang Staycation. Đơn đặt vé của bạn đã được ghi nhận thành công với hình thức <strong>Thanh toán tiền mặt tại quầy</strong>. Bạn vui lòng xuất trình mã đơn hàng hoặc phiếu E-Voucher điện tử bên dưới tại quầy tiếp đón để thanh toán và nhận vé vào cổng.";
             $trangThaiHtml = "<span style='color: #d97706; font-weight: 600; font-size: 13px;'>⏳ Chờ thanh toán tại quầy</span>";
             $tongTienLabel = "Tổng tiền thanh toán tại quầy:";
             $huongDan = "Khi tới điểm vui chơi / tham quan, bạn chỉ cần mở liên kết phiếu vé hoặc xuất trình mã đơn hàng cho nhân viên quầy tiếp đón để thanh toán tiền mặt và nhận vé vào cổng.<br>Mọi thắc mắc xin vui lòng liên hệ Hotline: <strong>1900 1234</strong> hoặc phản hồi email này.";
         } else {
-            $subject = "[Nha Trang Discovery] Xác nhận đặt vé thành công - Mã đơn #{$maDon}";
-            $loiChao = "Cảm ơn bạn đã lựa chọn Nha Trang Discovery. Đơn đặt vé của bạn đã được thanh toán thành công và vé điện tử E-Voucher đã sẵn sàng sử dụng.";
+            $subject = "[Nha Trang Staycation] Xác nhận đặt vé thành công - Mã đơn #{$maDon}";
+            $loiChao = "Cảm ơn bạn đã lựa chọn Nha Trang Staycation. Đơn đặt vé của bạn đã được thanh toán thành công và vé điện tử E-Voucher đã sẵn sàng sử dụng.";
             $trangThaiHtml = "<span style='color: #10b981; font-weight: 600; font-size: 13px;'>✓ Đã thanh toán</span>";
             $tongTienLabel = "Tổng tiền đã thanh toán:";
             $huongDan = "Khi tới điểm vui chơi / tham quan, bạn chỉ cần mở liên kết trên và xuất trình mã QR trên điện thoại cho nhân viên soát vé.<br>Mọi thắc mắc xin vui lòng liên hệ Hotline: <strong>1900 1234</strong> hoặc phản hồi email này.";
@@ -79,7 +79,7 @@ class MailHelper
                 <div style='max-width: 620px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.06); border: 1px solid #e2e8f0;'>
                     <!-- Header -->
                     <div style='background: linear-gradient(135deg, #0b2545 0%, #137a8e 100%); color: #ffffff; padding: 28px 24px; text-align: center;'>
-                        <h1 style='margin: 0; font-size: 22px; font-weight: 700; letter-spacing: -0.5px;'>Nha Trang Discovery</h1>
+                        <h1 style='margin: 0; font-size: 22px; font-weight: 700; letter-spacing: -0.5px;'>Nha Trang Staycation</h1>
                         <p style='margin: 6px 0 0 0; font-size: 14px; opacity: 0.9;'>Xác nhận đặt vé & Phiếu E-Voucher điện tử</p>
                     </div>
 
@@ -230,7 +230,7 @@ class MailHelper
             $mail->addAddress($toEmail);
 
             $mail->isHTML(true);
-            $mail->Subject = '[Nha Trang Discovery] Kiểm tra kết nối SMTP thành công!';
+            $mail->Subject = '[Nha Trang Staycation] Kiểm tra kết nối SMTP thành công!';
             $mail->Body    = '<h3>Chúc mừng bạn!</h3><p>Hệ thống gửi email SMTP của <strong>Nha Trang Tourism</strong> đã được kết nối thành công và hoạt động hoàn hảo.</p><p>Thời gian thử nghiệm: ' . date('d/m/Y H:i:s') . '</p>';
 
             $mail->send();

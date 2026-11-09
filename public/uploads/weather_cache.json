@@ -1,14 +1,14 @@
 {
-    "temp": 28,
-    "feel": 32,
+    "temp": 30,
+    "feel": 34,
     "temp_min": 25,
-    "temp_max": 29,
-    "condition_vi": "Nắng ráo, ít mây",
-    "condition_en": "Partly Cloudy",
-    "icon": "bi-cloud-sun-fill text-warning",
-    "humidity": 79,
-    "wind_speed": 9,
-    "uv_index": 7.1,
+    "temp_max": 30,
+    "condition_vi": "Trời nắng chan hòa",
+    "condition_en": "Sunny & Clear",
+    "icon": "bi-sun-fill text-warning",
+    "humidity": 65,
+    "wind_speed": 18,
+    "uv_index": 8,
     "wave_height": "0.4 - 0.7m",
     "wave_status_vi": "Biển êm ả • Rất thuận lợi tắm biển & đi cano đảo",
     "wave_status_en": "Calm sea • Ideal for swimming & island boat tours",
@@ -18,5 +18,5 @@
     "tide_low_2": "16:20 (+0.6m)",
     "recommendation_vi": "Khung giờ 08:30 - 11:30 sáng là thời điểm đẹp nhất trong ngày: nước biển trong vắt, sóng êm, lý tưởng lặn ngắm san hô Hòn Mun!",
     "recommendation_en": "08:30 - 11:30 AM is the golden hour: crystal-clear waters and gentle waves, perfect for Hon Mun coral reef snorkeling!",
-    "updated_at": "16:22 03\/11\/2026"
+    "updated_at": "13:36 06\/11\/2026"
 }

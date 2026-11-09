@@ -3,7 +3,7 @@
         <div class="row g-4 mb-4">
             <div class="col-lg-4 col-md-6">
                 <h5 class="fw-bold text-warning mb-3">
-                    <i class="bi bi-water me-2"></i>NhaTrang Discovery
+                    <i class="bi bi-water me-2"></i>Nha Trang Staycation
                 </h5>
                 <p class="text-white-50 small">
                     Nền tảng mã nguồn mở quảng bá địa điểm ẩm thực đặc sản và danh lam thắng cảnh TP. Nha Trang. 
@@ -49,7 +49,7 @@
 
         <hr class="border-secondary">
         <div class="text-center text-white-50 small">
-            &copy; <?= date('Y') ?> NhaTrang Discovery. Dự án Mã Nguồn Mở. All rights reserved.
+            &copy; <?= date('Y') ?> Nha Trang Staycation. Dự án Mã Nguồn Mở. All rights reserved.
         </div>
     </div>
 </footer>

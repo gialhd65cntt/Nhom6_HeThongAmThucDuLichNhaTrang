@@ -59,7 +59,7 @@ return [
     'common.open_hours' => 'Giờ mở cửa',
 
     // Footer
-    'footer.about'      => 'Nha Trang Discovery là nền tảng số quảng bá điểm đến, văn hóa ẩm thực và dịch vụ du lịch vịnh biển Nha Trang.',
+    'footer.about'      => 'Nha Trang Staycation là nền tảng số quảng bá điểm đến, văn hóa ẩm thực và dịch vụ du lịch vịnh biển Nha Trang.',
     'footer.quick_links'=> 'Liên kết nhanh',
     'footer.support'    => 'Hỗ trợ du khách',
     'footer.rights'     => 'Bản quyền thuộc về Cổng Thông Tin Du Lịch & Ẩm Thực Nha Trang.',
